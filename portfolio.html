@@ -31,8 +31,18 @@
           </ul>
         </nav>
         <div class="contact">
-          <a href="mailto:info@devstudio.com">info@devstudio.com</a>
-          <a href="tel:+48111111111">+48 111 111 111 </a>
+          <a class="contact-mail" href="mailto:info@devstudio.com">
+            <svg width="16" height="12" class="contact-icon">
+              <use href="./images/icons.svg#icon-envelope"></use>
+            </svg>
+            info@devstudio.com
+          </a>
+          <a href="tel:+48111111111">
+            <svg width="10" height="16" class="contact-icon">
+              <use href="./images/icons.svg#icon-smartphone"></use>
+            </svg>
+            +48 111 111 111
+          </a>
         </div>
       </div>
     </header>
@@ -51,7 +61,7 @@
           </ul>
           <ul class="portfolio-list">
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-technocrack.jpg"
                   alt="Przykładowy projekt strony internetowej zawierającej profile"
@@ -65,7 +75,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-grafika-no-gs.jpg"
                   alt="Przykładowa grafika przedstawiająca dwóch koszykarzy"
@@ -81,7 +91,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-r-seafood.jpg"
                   alt="Logo Restauracji SeaFood"
@@ -95,7 +105,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-p-prime.jpg"
                   alt="Czarne słuchawki"
@@ -109,7 +119,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-p-boxes.jpg"
                   alt="Przykładowy projekt pudełek firmowych"
@@ -123,7 +133,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-inspiration-borders.jpg"
                   alt="Przykładowy projekt strony internetowej zawierającej mapę działania przedsiębiorstwa"
@@ -137,7 +147,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-magzyn-le.jpg"
                   alt="Strony 22 i 23 magazynu Limited Edition"
@@ -151,7 +161,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-plab.jpg"
                   alt="Projekt czcionek"
@@ -165,7 +175,7 @@
               </figure>
             </li>
             <li>
-              <figure>
+              <figure class="portfolio-card">
                 <img
                   src="images/p-g-business.jpg"
                   alt="Aplikacja wspieracjąca rozwój biznesu"
@@ -184,22 +194,57 @@
     </main>
     <footer class="bottom">
       <div class="container">
-        <a href="index.html" class="logo"><span>Web</span>Studio</a>
-        <address>
-          <ul class="bottom-adress-list">
-            <li class="bottom-adress">m. Warszawa, Aleje Jerozolimskie 21</li>
-            <li>
-              <a class="bottom-mail" href="mailto:info@devstudio.com"
-                >info@devstudio.com</a
-              >
+        <div>
+          <a href="index.html" class="logo"><span>Web</span>Studio</a>
+          <address>
+            <ul class="bottom-adress-list">
+              <li class="bottom-adress">m. Warszawa, Aleje Jerozolimskie 21</li>
+              <li>
+                <a class="bottom-mail" href="mailto:info@devstudio.com"
+                  >info@devstudio.com</a
+                >
+              </li>
+              <li>
+                <a class="bottom-number" href="tel:+48111111111"
+                  >+48 111 111 111</a
+                >
+              </li>
+            </ul>
+          </address>
+        </div>
+        <section class="bottom-social-media">
+          <h4 class="bottom-four-header">Dołącz do nas</h4>
+          <ul class="team-social-media-list">
+            <li class="social-media-circle">
+              <a href="#">
+                <svg width="20" height="20" class="social-media-icon">
+                  <use href="./images/icons.svg#icon-instagram"></use>
+                </svg>
+              </a>
             </li>
-            <li>
-              <a class="bottom-number" href="tel:+48111111111"
-                >+48 111 111 111</a
-              >
+            <li class="social-media-circle">
+              <a href="#">
+                <svg width="20" height="20" class="social-media-icon">
+                  <use href="./images/icons.svg#icon-twitter"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-circle">
+              <a href="#">
+                <svg width="20" height="20" class="social-media-icon">
+                  <use href="./images/icons.svg#icon-facebook"></use>
+                </svg>
+              </a>
+            </li>
+            <li class="social-media-circle">
+              <a href="#">
+                <svg width="20" height="20" class="social-media-icon">
+                  <use href="./images/icons.svg#icon-linkedin"></use>
+                </svg>
+              </a>
             </li>
           </ul>
-        </address>
+        </section>
       </div>
     </footer>
   </body>
