@@ -180,6 +180,8 @@ footer .logo span {
   margin-top: 16px;
 }
 .social-media-circle {
+  height: 44px;
+  width: 44px;
   padding: 12px;
   border-radius: 50%;
   background-color: rgba(255, 255, 255, 0.1);
@@ -264,7 +266,6 @@ footer .logo span {
   background-color: var(--dark-background-color);
 }
 .main-header-box {
-  background-color: var(--dark-background-color);
   background-image: linear-gradient(
       var(--transparent-gradient-color),
       var(--transparent-gradient-color)
@@ -321,6 +322,9 @@ footer .logo span {
   list-style: none;
   gap: 30px;
   justify-content: center;
+}
+.filter-button-list {
+  gap: 8px;
 }
 .business-activities .second-header {
   padding-top: 94px;
